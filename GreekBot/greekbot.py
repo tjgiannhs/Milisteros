@@ -1,7 +1,7 @@
 import logging
 from chatterbot.storage import StorageAdapter
 from GreekBot.greek_logic_adapter import LogicAdapter
-from chatterbot.search import IndexedTextSearch
+from GreekBot.greek_search import IndexedTextSearch
 from chatterbot import utils
 from chatterbot.conversation import Statement
 
