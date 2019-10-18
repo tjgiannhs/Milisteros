@@ -1,5 +1,5 @@
 from chatterbot.adapters import Adapter
-from chatterbot.search import IndexedTextSearch
+from GreekBot.greek_search import IndexedTextSearch
 from chatterbot.conversation import Statement
 from GreekBot.greek_sql_storage import GreekSQLStorageAdapter
 
@@ -44,7 +44,7 @@ class LogicAdapter(Adapter):
         ]
 
         self.maximum_similarity_threshold = kwargs.get(
-            'maximum_similarity_threshold', 0.95
+            'maximum_similarity_threshold', 0.9
         )
 
         # Select the response with the biggest weight
