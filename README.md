@@ -10,6 +10,7 @@ Milisteros is trained with 2 yml files, guide and guide2
 
 Try Milisteros on http://stellar-cipher-255209.appspot.com
 
+############################################################
 
 Ο Μιληστερός είναι ένα chatbot που αναπτύχθηκε για την πτυχιακή μου εργασία και προσφέρει βασικές πληροφορίες για το ΑΠΘ σε πρωτοετείς
 
