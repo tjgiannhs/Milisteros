@@ -44,7 +44,7 @@ class LogicAdapter(Adapter):
         ]
 
         self.maximum_similarity_threshold = kwargs.get(
-            'maximum_similarity_threshold', 0.9
+            'maximum_similarity_threshold', 0.95
         )
 
         # Select the response with the biggest weight
